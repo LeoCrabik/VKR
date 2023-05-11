@@ -73,6 +73,7 @@ class ExamPairWidget(QWidget, Ui_examPair):
         self.setupUi(self)
         self.examName.setText(exam)
         self.examChoose.addItems(exam_list)
+        self.examChoose.view().setMinimumWidth(600)
 
 
 class Window3(QWidget, Ui_examPairs):
@@ -277,12 +278,15 @@ class MainWindow(QMainWindow):
                     k: v for k, v in exams.items() if (k.strip() in needed_exams) and (str(v) in [
                         '3', '4', '5', 'зачет', 'None', 'не явился', 'не допущен'])
                 }
+
                 student_info = students_info[student]
                 self.students.append(self.Student(student, student_marks, course_projects[student], course_works[student], student_info, exam_units, diffs, global_units, excel_dict[student]))
 
         class Student:
             def __init__(self, name, student_marks, course_projects, course_works, student_info, exam_units, diffs, global_units, excel):
-                self.secondName, self.firstName, self.thirdName = name.split(' ')
+                self.secondName = name.split(' ')[0]
+                self.firstName = name.split(' ')[1]
+                self.thirdName = ' '.join(name.split(' ')[2:])
                 self.formCheck = student_info['Форма обучения']
                 self.seqFormCheck = student_info['Сочетание форм обучения']
                 self.speedrunCheck = student_info['Ускоренное обучение']
@@ -408,24 +412,32 @@ class MainWindow(QMainWindow):
                     row -= 1
 
                 for project, mark in course_projects.items():
-                    if mark in [5, 4, 3]:
+                    if mark not in ['не обуч.', 'не выбр.']:
                         row += ceil(len(project) / 50)
                         if row >= max_row and not list_flag:
                             row = 0
                             current_list = second_page
                             list_flag = True
-                        mark = mark_dict[mark]
+
+                        if mark in mark_dict.keys():
+                            mark = mark_dict[mark]
+                        else:
+                            mark = 'x'
 
                         current_list.append(['Курсовой проект, {}'.format(project), 'x', mark])
 
                 for project, mark in course_works.items():
-                    if mark in [5, 4, 3]:
+                    if mark not in ['не обуч.', 'не выбр.']:
                         row += ceil(len(project) / 50)
                         if row >= max_row and not list_flag:
                             row = 0
                             current_list = second_page
                             list_flag = True
-                        mark = mark_dict[mark]
+
+                        if mark in mark_dict.keys():
+                            mark = mark_dict[mark]
+                        else:
+                            mark = 'x'
 
                         current_list.append(['Курсовая работа, {}'.format(project), 'x', mark])
 
@@ -486,10 +498,10 @@ class MainWindow(QMainWindow):
     def add_exams(self):
         pairs = self.w3.get_pairs()
         for exam1, exam2 in pairs.items():
-            for block in self.w1.exam_units.values():
-                if exam2 in block:
-                    block[exam1] = block[exam2]
-                    del block[exam2]
+            for exams in self.w2.group_info['group_marks'].values():
+                if exam1 in exams.keys():
+                    exams[exam2] = exams[exam1]
+                    del exams[exam1]
 
     def setup_w4(self):
         self.w4.setup_students(self.w2.group_info['group_marks'].keys())

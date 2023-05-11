@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a78438a-b5a9-493b-a9e1-96caf592fffe" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel/examUnitReader.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel/examUnitReader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Антонов.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Антонов.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Афанасьев.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Афанасьев.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Балабанова.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Балабанова.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Васин.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Васин.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Власов.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Власов.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Гуравова.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Гуравова.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Дегтярев.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Дегтярев.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Демидов.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Демидов.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Ефименко.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Ефименко.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Канаева.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Канаева.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Кочетков.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Кочетков.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Кузьмичев.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Кузьмичев.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Минаев.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Минаев.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Митин.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Митин.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Приходько.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Приходько.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Пузанкова.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Пузанкова.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Расторгуева.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Расторгуева.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/ Д-Э406/Скворцов.docx" beforeDir="false" afterPath="$PROJECT_DIR$/output/ Д-Э406/Скворцов.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Создание приложений к диплому.spec" beforeDir="false" afterPath="$PROJECT_DIR$/Создание приложений к диплому.spec" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PbW5C3DHqJN8DWF1Djt3ROrSwc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a78438a-b5a9-493b-a9e1-96caf592fffe" name="Changes" comment="" />
+      <created>1683726075674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683726075674</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

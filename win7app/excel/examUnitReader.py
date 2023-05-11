@@ -74,6 +74,10 @@ class SyllabusReader:
 
             if exam_cell.value and not exam_cell.font.bold:
                 exam = exam_cell.value
+                if 'У' in self.sheet.cell(column=2, row=row).value:
+                    exam = 'Учебная практика ({})'.format(exam.lower())
+                elif 'П' in self.sheet.cell(column=2, row=row).value:
+                    exam = 'Производственная практика ({})'.format(exam.lower())
                 if unit:
                     current_dict[exam] = int(unit)
                 else:
