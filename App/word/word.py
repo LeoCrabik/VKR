@@ -76,7 +76,7 @@ class FillTemplate:
                 context['exam_new{}_mark'.format(i)] = exam[2]
 
             self.doc.render(context=context)
-            self.save(student.secondName)
+            self.save('{} {} {}'.format(student.secondName, student.firstName, student.thirdName))
 
     def save(self, filename):
         save_path = os.path.join(self.out_path, self.group.name, '{}.docx'.format(filename))
